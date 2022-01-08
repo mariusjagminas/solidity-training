@@ -6,7 +6,7 @@
   "homepage": "",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "hardhat test"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.3",
@@ -15,5 +15,8 @@
     "ethereum-waffle": "^3.4.0",
     "ethers": "^5.5.2",
     "hardhat": "^2.8.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1"
   }
 }
